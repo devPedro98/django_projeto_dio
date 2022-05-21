@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
+    <div>
+        <a href="/admin">Área administrativa</a>
+    </div>
     <h1>Login</h1>
     <form action="submit" method="POST">
         {% csrf_token %}
